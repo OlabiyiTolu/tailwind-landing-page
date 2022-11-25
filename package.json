@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./build/css/main.css",  
     "watch": "tailwindcss -i ./src/input.css -o ./build/css/main.css --watch", 
-    "builds": "tailwindcss build --output public"
+    "builds": "tailwindcss build --output ./public/public.css"
   },
   "keywords": [],
   "author": "",
