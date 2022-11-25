@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./build/css/main.css",  
-    "watch": "tailwindcss -i ./src/input.css -o ./build/css/main.css --watch" 
+    "watch": "tailwindcss -i ./src/input.css -o ./build/css/main.css --watch", 
+    "builds": "tailwindcss build --output public"
   },
   "keywords": [],
   "author": "",
